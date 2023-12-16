@@ -11,13 +11,13 @@ $mail = new PHPMailer;
 $mail->isSMTP();                        // Setar o uso do SMTP
 $mail->Host = 'email-ssl.com.br';  	// Servidor smtp 
 $mail->SMTPAuth = true;                 // Habilita a autenticação do form
-$mail->Username = 'locaweb@simpsons0035.correio.biz';       // Conta de e-mail que realizará o envio
-$mail->Password = 'L1FCJ7lw#@#4';       // Senha da conta de e-mail
+$mail->Username = 'locaweb@www370.locaweb.com.br';       // Conta de e-mail que realizará o envio
+$mail->Password = 'SeC1Loc@W2019';       // Senha da conta de e-mail
 //$mail->SMTPSecure = 'tls';            // Habilitar uso do TLS (plesk 11.5 ou utilizando contas do Gmail)
 $mail->Port = 587;                       // Porta de conexão 
-$mail->From = 'locaweb@simpsons0035.correio.biz'; 			// e-mail From deve ser o mesmo de "username" (contadeEmail)
+$mail->From = 'locaweb@www370.locaweb.com.br'; 			// e-mail From deve ser o mesmo de "username" (contadeEmail)
 $mail->FromName = 'Teste'; 				// Nome que será exibido ao receber a mensagem. 
-$mail->addAddress('locaweb@simpsons0035.correio.biz', 'Alexandre'); // Destinatário 
+$mail->addAddress('locaweb@www370.locaweb.com.br', 'Alexandre'); // Destinatário 
 //$mail->addAddress('ellen@example.com');               	// Nome do destinatário
 //$mail->addReplyTo('info@example.com', 'Information');  	//Responder para 
 //$mail->addCC('cc@example.com'); // Adicionar cópia para o recebimento. 
